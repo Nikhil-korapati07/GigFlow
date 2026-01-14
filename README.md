@@ -1,5 +1,6 @@
 # GigFlow MVP
-
+## Demo Video (Loom)
+🎥 Loom Link: https://www.loom.com/share/7e2127e593ae4ecdb1d353299c318a45
 A full-stack freelancing platform MVP built with React, Node.js, Express, and MongoDB.
 
 ## Tech Stack
