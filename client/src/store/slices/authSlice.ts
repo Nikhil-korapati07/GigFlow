@@ -55,7 +55,7 @@ const authSlice = createSlice({
         state.loading = false;
         state.user = action.payload;
       })
-      .addCase(fetchMe.rejected, (state, action) => {
+      .addCase(fetchMe.rejected, (state) => {
         state.loading = false;
         state.user = null;
       })
