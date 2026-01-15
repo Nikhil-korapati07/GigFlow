@@ -19,7 +19,9 @@ const allowedOrigins = [
   "http://localhost:5173",
   "https://localhost:5173",
 ].filter(Boolean);
-
+app.get("/api/status", (req, res) => {
+  res.json({ status: "ok" });
+});
 app.use(
   cors({
     origin: (origin, callback) => {
